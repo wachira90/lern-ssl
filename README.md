@@ -21,3 +21,9 @@ Organizational Unit Name (eg, section) []:IT-ENGINER
 Common Name (e.g. server FQDN or YOUR name) []:IT-DEPT
 Email Address []:SAM@EXAMPLE.COM
 ````
+
+## final 
+
+````
+openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -subj "/C=TH/ST=Sathon/L=Bangkok/O=Ecample Company/OU=IT Engineer/CN=www.example.com"
+````
